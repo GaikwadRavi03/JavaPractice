@@ -9,6 +9,11 @@ class Node {
 		next = null;
 	}
 
+	public Node(int data, Node next) {
+		this.data = data;
+		this.next = next;
+	}
+
 	public int getData() {
 		return data;
 	}
@@ -22,11 +27,6 @@ class Node {
 	}
 
 	public void setNext(Node next) {
-		this.next = next;
-	}
-
-	public Node(int data, Node next) {
-		this.data = data;
 		this.next = next;
 	}
 }
@@ -62,7 +62,7 @@ class LinkedList {
 	public void insertAtFirst(int val) {
 		Node n = new Node();
 		n.setData(val);
-		n.setNext(start);		
+		n.setNext(start);
 		start = n;
 		size++;
 	}
@@ -98,7 +98,6 @@ class LinkedList {
 			System.out.println("insertion not posiible at position" + index);
 	}
 
-	
 	public void DeleteFirst() {
 		if (start == null)
 			System.out.println("list is already empty:");

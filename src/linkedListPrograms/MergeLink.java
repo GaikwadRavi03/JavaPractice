@@ -1,7 +1,5 @@
 package linkedListPrograms;
 
-import javax.xml.soap.Node;
-
 public class MergeLink {
 	Node head;
 
