@@ -2,7 +2,7 @@ package basicprograms;
 
 import java.util.Scanner;
 
-public class string {
+public class StringOperations {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,9 +16,9 @@ public class string {
 //1.find length of both strings
 		int L1 = s1.length();
 		int L2 = s2.length();
-		System.out.println("L1 :" + L1 + " L2 :" + L2);
+		System.out.println("1st string Length is:" + L1 + "2nd string Length is :" + L2);
 
-//2.concatination of two strings
+//2.Concatenation of two strings
 		String s3 = s1 + s2;
 		System.out.println(s3);
 

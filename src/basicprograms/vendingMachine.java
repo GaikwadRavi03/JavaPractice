@@ -27,8 +27,6 @@ class VendingMachine {
 	}
 
 	public static void main(String[] args) {
-		VendingMachine v1 = new VendingMachine();
-
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Amount:");
 		money = sc.nextInt();

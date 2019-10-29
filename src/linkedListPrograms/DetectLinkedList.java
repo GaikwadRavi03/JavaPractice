@@ -1,7 +1,5 @@
 package linkedListPrograms;
 
-import linkedListPrograms.DuplicateLinkedListDelete.Node;
-
 public class DetectLinkedList {
 	static Node head;
 

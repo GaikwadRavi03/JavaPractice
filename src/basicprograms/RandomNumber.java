@@ -11,8 +11,8 @@ public class RandomNumber {
 		System.out.println("entrer the  max range :");
 		maxRange = sc.nextInt();
 		for (int i = 0; i < 10; i++) {
-			System.out.print(rand.nextInt(maxRange) + " ");
+			System.out.print(rand.nextInt(maxRange) + 1 + " ");
 		}
-		
+
 	}
 }

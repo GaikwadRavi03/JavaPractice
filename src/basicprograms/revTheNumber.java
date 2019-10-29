@@ -7,7 +7,7 @@ public class revTheNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num, rev = 0, temp, d;
+		int num, rev = 0, d;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter the no:");
 		num = sc.nextInt();

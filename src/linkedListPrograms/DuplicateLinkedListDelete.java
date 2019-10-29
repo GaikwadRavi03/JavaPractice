@@ -1,8 +1,5 @@
 package linkedListPrograms;
 
-//find duplicates and delete it.
-import javax.xml.soap.Node;
-
 public class DuplicateLinkedListDelete {
 	Node head;
 

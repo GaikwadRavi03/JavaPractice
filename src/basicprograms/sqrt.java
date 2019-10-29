@@ -12,7 +12,7 @@ public class sqrt {
 		sqrt(c);
 	}
 
-	private static void sqrt(double c) {
+	static void sqrt(double c) {
 		// TODO Auto-generated method stub
 		double t = c;
 		double epsilon = 1e-15;

@@ -1,9 +1,7 @@
 package linkedListPrograms;
 
-//Reverse linled list using stack.
+//Reverse linked list using stack.
 import java.util.Stack;
-
-import linkedListPrograms.DuplicateLinkedListDelete.Node;
 
 public class RevLLStack {
 	static Node head;

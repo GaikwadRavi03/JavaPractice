@@ -4,7 +4,7 @@ public class BinarySearch_String {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String str[] = { "AAA", "BBB", "CCC", "DDD", "EEE", "FFF", "GGG" };
-		String item = "AAA";
+		String item = "EEE";
 		int first = 0;
 		int last = str.length - 1;
 		int middle = (first + last) / 2;

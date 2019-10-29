@@ -9,6 +9,6 @@ public class SumOfTwoDices {
 		int a = rand.nextInt(6) + 1;
 		int b = rand.nextInt(6) + 1;
 
-		System.out.println("SUM : " + (a + b));
+		System.out.println("SUM of two Dices : " + (a + b));
 	}
 }

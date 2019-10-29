@@ -1,6 +1,6 @@
 package basicprograms;
 
-//second largest element in array..
+//second largest element in array..using sorting and swamping method. 
 public class secondLargestElementInArray {
 
 	public static void main(String[] args) {

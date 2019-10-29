@@ -6,7 +6,7 @@ public class sumOf1000PrimeNumbers {
 		// TODO Auto-generated method stub
 		int flag;
 		int sum = 0;
-		for (int num = 2; num <= 10; num++) {
+		for (int num = 2; num <= 1000; num++) {
 			flag = 0;
 			for (int i = 2; i <= num / 2; i++) {
 				if (num % i == 0) {

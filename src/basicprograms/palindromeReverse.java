@@ -1,7 +1,5 @@
 package basicprograms;
 
-import java.util.Scanner;
-
 public class palindromeReverse {
 
 	public static void main(String[] args) {

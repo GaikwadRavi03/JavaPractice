@@ -1,7 +1,5 @@
 package linkedListPrograms;
 
-import linkedListPrograms.RevLLStack.Node;
-
 //reverse linked list in single list.
 public class ReverseLL {
 	static Node head;

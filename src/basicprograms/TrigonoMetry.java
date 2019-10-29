@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TrigonoMetry {
 	public static void main(String args[]) {
 		double d;
-		System.out.println("\nEnter angle in degrees : ");
+		System.out.println("Enter angle in degrees : ");
 		Scanner sc = new Scanner(System.in);
 		d = sc.nextDouble();
 
